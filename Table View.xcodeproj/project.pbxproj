@@ -13,6 +13,18 @@
 		274EA4A223DFEE500004B7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4A023DFEE500004B7AE /* Main.storyboard */; };
 		274EA4A423DFEE520004B7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4A323DFEE520004B7AE /* Assets.xcassets */; };
 		274EA4A723DFEE520004B7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4A523DFEE520004B7AE /* LaunchScreen.storyboard */; };
+		274EA4AF23DFF4B10004B7AE /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EA4AE23DFF4B10004B7AE /* SectionTableViewController.swift */; };
+		274EA4B123E016560004B7AE /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EA4B023E016560004B7AE /* CustomTableViewController.swift */; };
+		274EA4B323E016E80004B7AE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EA4B223E016E80004B7AE /* CustomTableViewCell.swift */; };
+		274EA4BC23E032D10004B7AE /* durian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4B523E032D10004B7AE /* durian.mp3 */; };
+		274EA4BD23E032D10004B7AE /* alpukat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4B623E032D10004B7AE /* alpukat.mp3 */; };
+		274EA4BE23E032D10004B7AE /* ceri.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4B723E032D10004B7AE /* ceri.mp3 */; };
+		274EA4BF23E032D10004B7AE /* apel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4B823E032D10004B7AE /* apel.mp3 */; };
+		274EA4C023E032D10004B7AE /* jambuair.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4B923E032D10004B7AE /* jambuair.mp3 */; };
+		274EA4C123E032D10004B7AE /* strawberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4BA23E032D10004B7AE /* strawberry.mp3 */; };
+		274EA4C223E032D10004B7AE /* manggis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 274EA4BB23E032D10004B7AE /* manggis.mp3 */; };
+		274EA4C423E0371C0004B7AE /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EA4C323E0371C0004B7AE /* CollectionViewController.swift */; };
+		274EA4C623E0372B0004B7AE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EA4C523E0372B0004B7AE /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		274EA4A323DFEE520004B7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274EA4A623DFEE520004B7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		274EA4A823DFEE520004B7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274EA4AE23DFF4B10004B7AE /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		274EA4B023E016560004B7AE /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		274EA4B223E016E80004B7AE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		274EA4B523E032D10004B7AE /* durian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = durian.mp3; sourceTree = "<group>"; };
+		274EA4B623E032D10004B7AE /* alpukat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alpukat.mp3; sourceTree = "<group>"; };
+		274EA4B723E032D10004B7AE /* ceri.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ceri.mp3; sourceTree = "<group>"; };
+		274EA4B823E032D10004B7AE /* apel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apel.mp3; sourceTree = "<group>"; };
+		274EA4B923E032D10004B7AE /* jambuair.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jambuair.mp3; sourceTree = "<group>"; };
+		274EA4BA23E032D10004B7AE /* strawberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strawberry.mp3; sourceTree = "<group>"; };
+		274EA4BB23E032D10004B7AE /* manggis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = manggis.mp3; sourceTree = "<group>"; };
+		274EA4C323E0371C0004B7AE /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		274EA4C523E0372B0004B7AE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 		274EA49923DFEE500004B7AE /* Table View */ = {
 			isa = PBXGroup;
 			children = (
+				274EA4B423E032760004B7AE /* music */,
 				274EA49A23DFEE500004B7AE /* AppDelegate.swift */,
 				274EA49C23DFEE500004B7AE /* SceneDelegate.swift */,
 				274EA49E23DFEE500004B7AE /* ViewController.swift */,
@@ -63,8 +88,27 @@
 				274EA4A323DFEE520004B7AE /* Assets.xcassets */,
 				274EA4A523DFEE520004B7AE /* LaunchScreen.storyboard */,
 				274EA4A823DFEE520004B7AE /* Info.plist */,
+				274EA4AE23DFF4B10004B7AE /* SectionTableViewController.swift */,
+				274EA4B023E016560004B7AE /* CustomTableViewController.swift */,
+				274EA4B223E016E80004B7AE /* CustomTableViewCell.swift */,
+				274EA4C323E0371C0004B7AE /* CollectionViewController.swift */,
+				274EA4C523E0372B0004B7AE /* CollectionViewCell.swift */,
 			);
 			path = "Table View";
+			sourceTree = "<group>";
+		};
+		274EA4B423E032760004B7AE /* music */ = {
+			isa = PBXGroup;
+			children = (
+				274EA4B623E032D10004B7AE /* alpukat.mp3 */,
+				274EA4B823E032D10004B7AE /* apel.mp3 */,
+				274EA4B723E032D10004B7AE /* ceri.mp3 */,
+				274EA4B523E032D10004B7AE /* durian.mp3 */,
+				274EA4B923E032D10004B7AE /* jambuair.mp3 */,
+				274EA4BB23E032D10004B7AE /* manggis.mp3 */,
+				274EA4BA23E032D10004B7AE /* strawberry.mp3 */,
+			);
+			path = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				274EA4A723DFEE520004B7AE /* LaunchScreen.storyboard in Resources */,
+				274EA4BF23E032D10004B7AE /* apel.mp3 in Resources */,
 				274EA4A423DFEE520004B7AE /* Assets.xcassets in Resources */,
+				274EA4C223E032D10004B7AE /* manggis.mp3 in Resources */,
 				274EA4A223DFEE500004B7AE /* Main.storyboard in Resources */,
+				274EA4BC23E032D10004B7AE /* durian.mp3 in Resources */,
+				274EA4C123E032D10004B7AE /* strawberry.mp3 in Resources */,
+				274EA4C023E032D10004B7AE /* jambuair.mp3 in Resources */,
+				274EA4BD23E032D10004B7AE /* alpukat.mp3 in Resources */,
+				274EA4BE23E032D10004B7AE /* ceri.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274EA4B323E016E80004B7AE /* CustomTableViewCell.swift in Sources */,
 				274EA49F23DFEE500004B7AE /* ViewController.swift in Sources */,
+				274EA4C623E0372B0004B7AE /* CollectionViewCell.swift in Sources */,
 				274EA49B23DFEE500004B7AE /* AppDelegate.swift in Sources */,
+				274EA4AF23DFF4B10004B7AE /* SectionTableViewController.swift in Sources */,
+				274EA4C423E0371C0004B7AE /* CollectionViewController.swift in Sources */,
 				274EA49D23DFEE500004B7AE /* SceneDelegate.swift in Sources */,
+				274EA4B123E016560004B7AE /* CustomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

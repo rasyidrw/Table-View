@@ -8,11 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let city = ["Jakarta", "Tangerang", "Bogor", "Bekasi", "Depok", "Wakanda", "Asgard", "wkwk land", "kota di +62"]
+    
+    @IBOutlet weak var tblCity: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        tblCity.delegate = self
+        tblCity.dataSource = self
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return city.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cityCell")
+        
+        cell?.textLabel?.text = city[indexPath.row]
+        
+        return cell!
     }
 
 
